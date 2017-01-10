@@ -40,11 +40,10 @@ NO rights yet but use the admin account just for now (for development), once fin
 
 on your protected/config/main.php, please paste these code under modules
 ####
-/******************** Start ***************/
+
 'inventory' => array(
             'defaultController' => 'supplies/admin',
         ),
-/******************** End *********************/
 ####
 on your protected/extensions/eexcelview/ folder , please transfer the "EExcelViewCreateInventoryDataEntryFile.php" from inventory folder to that eexcelview folder (this file is used for downloading an entry form for the inventory)
 
