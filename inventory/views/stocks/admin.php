@@ -5,7 +5,7 @@
 
 	/*******************************************************
 	name: Bergel T. Cutara
-	org: DOST-IX, 911-1024
+	org: DOST-IX, 991-1024
 	date created: Jan 6 2017
 	description: interface for stocks, allows to download data entry form , load file and push temp data to database
 	********************************************************/
@@ -170,7 +170,7 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 
 /*******************************************************
 name: Bergel T. Cutara
-org: DOST-IX, 911-1024
+org: DOST-IX, 991-1024
 date created: Jan 6 2017
 description: uploading data using excel // function and pop up dialog // function calls the controller for the data communication
 ********************************************************/
