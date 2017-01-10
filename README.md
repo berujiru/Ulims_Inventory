@@ -37,7 +37,30 @@ table in the accesslist2 column in profiles table.
 #### ADDITIONAL ####
 NO rights yet but use the admin account just for now (for development), once finished we will direct every controller to using the rights module(for testing purpose). No rights yet so theres no dump files for up and down.sql yet (user access purpose) but it will be same as what the installation notes above states. Also lets start practicing using comments so we will know who made whom, or any changes to code.
 
+
+on your protected/config/main.php, please paste these code under modules
+/******************** Start ***************/
+'inventory' => array(
+            'defaultController' => 'supplies/admin',
+        ),
+/******************** End *********************/
+
+on your protected/extensions/eexcelview/ folder , please transfer the "EExcelViewCreateInventoryDataEntryFile.php" from inventory folder to that eexcelview folder (this file is used for downloading an entry form for the inventory)
+
+
+
 Kindly fork and clone this repo to a new folder let call it "Ulim Mod" on your personal machine (separate folder from dev files). the folder will be kept as your personal file. example if youre working on inventory module and you have your ulims file on your htdocs it is your dev files, after you finish testing certain feature/s and you want to upload it to repo, just copy the file/s from your dev file  to your Ulim Mod folder then you can issue a pull request with my master repo from there.
+#### Progress ####
+CRUD - consumptions, reorderstocks, stocks, supplies, suppliers
+Downloadable Inventory data entry form
+Upload and Load data from excel
+Import data from Excel
+
+
+
+
+
+
 
 ##### TEAM #####
 
