@@ -144,7 +144,7 @@ class StocksController extends Controller
 
 		/*******************************************************
 		name: Bergel T. Cutara
-		org: DOST-IX, 911-1024
+		org: DOST-IX, 991-1024
 		date created: Jan 6 2017
 		description: uploads , extracts and load the data from the excel file
 		********************************************************/
@@ -234,7 +234,7 @@ class StocksController extends Controller
 
 	/*******************************************************
 		name: Bergel T. Cutara
-		org: DOST-IX, 911-1024
+		org: DOST-IX, 991-1024
 		date created: Jan 6 2017
 		description: clear temp excel file/s
 		********************************************************/
@@ -277,7 +277,7 @@ class StocksController extends Controller
 
 	/*******
 	name : Bergel T. Cutara
-	organization : DOST-IX, 911-1024
+	organization : DOST-IX, 991-1024
 	date created: Jan 5, 2017
 	********/
 	public function actionInitialinventoryform(){
@@ -339,7 +339,7 @@ class StocksController extends Controller
 
 	/*************************
 	name: Bergel T. Cutara
-	org: DOST-IX, 911-1024
+	org: DOST-IX, 991-1024
 	date created: Jan 9 2017
 	function description: reads data on txt file, and upload to database
 	***************************/
